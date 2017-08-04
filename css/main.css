@@ -1,0 +1,56 @@
+body {
+  background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/06/HD-Simba-Lion-King-Backgrounds.jpg");
+  background-size: cover;
+}
+
+h1 {
+  font-size: xx-large;
+  font-weight: 600;
+  text-align: center;
+}
+
+#message {
+  font-family: fantasy;
+  font-size: medium;
+  text-align: center;
+}
+
+.gameboard {
+  width: 330px;
+  margin: 40px auto 0 auto;
+}
+
+.row {
+  clear:both;
+  overflow:hidden;
+}
+
+.square {
+  float: left;
+  width: 119px;
+  height: 84px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 50px;
+}
+
+.bottom {
+  border-bottom: 1px solid black;
+}
+
+.right {
+  border-right: 1px solid black;
+}
+
+.x {
+  background-color: red;
+  background-image: url("https://www.polyvore.com/cgi/img-thing?.out=jpg&size=l&tid=38154184");
+  background-size: cover;
+
+}
+
+.o {
+  background-color: blue;
+  background-image:url("https://images.moviepilot.com/image/upload/c_fill,h_470,q_auto:good,w_620/nazohbzmveuald1jc4t2.jpg");
+  background-size:cover;
+}
